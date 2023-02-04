@@ -50,10 +50,4 @@ We only provide pre-trained models for mean estimators because to provide all no
 However, all mean estimators will be found in the folders already mentioned.
 If you wish to generate new mean estimators it would be sufficient to rename the corresponding PTH file.
 
-## Results
 
-Our model achieves the following performance on:
-
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
