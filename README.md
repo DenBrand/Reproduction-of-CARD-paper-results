@@ -36,6 +36,12 @@ python toy_reg_experiments.py
 ```
 
 This script works mostly similar to the UCI_reg_experiments.py script and will therefore also ask which GPU to use, if there is one. It will also write its results into CSV files (this time placed at './scores/toys/<distribution-name>_scores.csv') and loads potentially existing pre-trained models from 'models/toy/<distribution-name>_mean_estimator.pth'. This program does not need to be told which experiment to run, as it simply runs all toy example experiments in sequence. For multi-modal data distributions, the calculated RMSE score should be ignored, as this metric makes no sense for multi-modal distributions. As with the UCI experiments, the means and standard deviations are output to the console after the last fold (here 10 for every distribution) is completed.
+  
+## Training of toy example experiments and reproduction of the visualizations of recovered toy data distributions
+
+```train-and-eval_toy
+python plot_toy_data.py
+```
 
 ## Pre-trained Models
 
@@ -46,17 +52,8 @@ If you wish to generate new mean estimators it would be sufficient to rename the
 
 ## Results
 
-Our model achieves the following performance on :
-
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+Our model achieves the following performance on:
 
 | Model name         | Top 1 Accuracy  | Top 5 Accuracy |
 | ------------------ |---------------- | -------------- |
 | My awesome model   |     85%         |      95%       |
-
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
-
-
-## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
