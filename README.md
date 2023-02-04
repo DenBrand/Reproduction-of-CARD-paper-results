@@ -42,6 +42,7 @@ This script works mostly similar to the UCI_reg_experiments.py script and will t
 ```train-and-eval_toy
 python plot_toy_data.py
 ```
+This script is intended to reproduce the visual evaluation of reconstructing the underlying ditribution of the toy datasets. It first trains a single model for every distribution and afterwards is evaluated on a test dataset consisting of 2000 datapoints. Finally the original test data as well as the generated data is plotted in a scatterplot for every dataset.
 
 ## Pre-trained Models
 
