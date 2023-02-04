@@ -1,0 +1,10 @@
+*.pth
+.vscode/*
+data/*
+wandb/*
+card/__pycache__/*
+scores/*
+server_scores/*
+server_models/*
+datasets/*
+models/*

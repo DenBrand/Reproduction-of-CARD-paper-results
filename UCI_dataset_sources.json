@@ -1,0 +1,82 @@
+{
+	"Boston": {
+		"src": "sklearn",
+		"batch_size": 32,
+		"observations": 506,
+		"features": 13,
+		"folds": 20,
+		"output_size": 1
+	},
+	"Concrete": {
+		"src": "http://archive.ics.uci.edu/ml/machine-learning-databases/concrete/compressive/Concrete_Data.xls",
+		"batch_size": 32,
+		"observations": 1030,
+		"features": 8,
+		"folds": 20,
+		"output_size": 1
+	},
+	"Energy": {
+		"src": "http://archive.ics.uci.edu/ml/machine-learning-databases/00242/ENB2012_data.xlsx",
+		"batch_size": 32,
+		"observations": 768,
+		"features": 8,
+		"folds": 20,
+		"output_size": 2
+	},
+	"Kin8nm": {
+		"src": "http://www.openml.org/data/download/3626/dataset_2175_kin8nm.arff",
+		"batch_size": 64,
+		"observations": 8192,
+		"features": 8,
+		"folds": 20,
+		"output_size": 1
+	},
+	"Naval": {
+		"src": "http://archive.ics.uci.edu/ml/machine-learning-databases/00316/UCI%20CBM%20Dataset.zip",
+		"batch_size": 64,
+		"observations": 11934,
+		"features": 16,
+		"folds": 20,
+		"output_size": 2
+	},
+	"Power": {
+		"src": "http://archive.ics.uci.edu/ml/machine-learning-databases/00294/CCPP.zip",
+		"batch_size": 64,
+		"observations": 9568,
+		"features": 4,
+		"folds": 20,
+		"output_size": 1
+	},
+	"Protein": {
+		"src": "http://archive.ics.uci.edu/ml/machine-learning-databases/00265/CASP.csv",
+		"batch_size": 256,
+		"observations": 45730,
+		"features": 9,
+		"folds": 5,
+		"output_size": 1
+	},
+	"Wine": {
+		"src": "http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv",
+		"batch_size": 32,
+		"observations": 1599,
+		"features": 11,
+		"folds": 20,
+		"output_size": 1
+	},
+	"Yacht": {
+		"src": "http://archive.ics.uci.edu/ml/machine-learning-databases/00243/yacht_hydrodynamics.data",
+		"batch_size": 32,
+		"observations": 308,
+		"features": 6,
+		"folds": 20,
+		"output_size": 1
+	},
+	"Year": {
+		"src": "http://archive.ics.uci.edu/ml/machine-learning-databases/00203/YearPredictionMSD.txt.zip",
+		"batch_size": 256,
+		"observations": 515345,
+		"features": 90,
+		"folds": 1,
+		"output_size": 1
+	}
+}
